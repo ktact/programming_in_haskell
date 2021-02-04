@@ -11,6 +11,10 @@ safetail_c [] = []
 safetail_c (_:xs) = xs
 
 -- 4
+(||) :: Bool -> Bool -> Bool
+True || _    = True
+_    || True = True
+_    || _    = False
 
 -- 5
 
