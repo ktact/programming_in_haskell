@@ -17,6 +17,8 @@ _    || True = True
 _    || _    = False
 
 -- 5
+(&&) :: Bool -> Bool -> Bool
+a && b = if a == True then if b == True then True else False else False
 
 -- 6
 
