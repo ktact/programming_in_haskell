@@ -1,4 +1,5 @@
 -- 1
+halve xs = splitAt (length xs `div` 2) xs
 
 -- 2
 third_a xs = head (tail (tail xs))
